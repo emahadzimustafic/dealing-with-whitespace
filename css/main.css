@@ -8,3 +8,15 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  margin: auto;
+  padding: auto;
+}
+
+h1 + p {
+  font-style: italic;
+}
+blockquote {
+  color: #999;
+}
