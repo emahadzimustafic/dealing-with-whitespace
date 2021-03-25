@@ -32,8 +32,8 @@ article header p {
   margin-top: 0;
   margin-bottom: 0;
   border-bottom: .1px solid;
-  padding-top: 0;
-  padding-bottom: 1.3em;
+  padding-top: .1em;
+  padding-bottom: 1.35em;
   border-color: #999;
 }
 
@@ -58,6 +58,10 @@ article p {
 blockquote p {
   font-size: 1.125rem;
   color: #555;
+}
+
+blockquote {
+  margin-top: -.5em;
 }
 
 body {
