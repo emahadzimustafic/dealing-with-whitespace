@@ -40,3 +40,12 @@ body {
 ol li {
   margin-left: -1rem;
 }
+
+article {
+  margin-top: 0em;
+  margin-bottom: 0;
+  border-bottom: 1px solid;
+  padding-top: 0.05em;
+  padding-bottom: 1em;
+  border-color: #555;
+}
