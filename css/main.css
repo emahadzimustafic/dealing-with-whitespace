@@ -34,19 +34,19 @@ article header p {
   border-bottom: .1px solid;
   padding-top: .1em;
   padding-bottom: 1.3em;
-  border-color: #222;
+  border-color: #999;
 }
 
 article header + p {
-  padding-top:  .5em;
+  padding-top: .5em;
 }
 
 article p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-style: normal;
   color: #222;
   line-height: 1.25;
-  padding-top: 0;
+  padding-top: .5em;
   padding-bottom: 0;
 }
 
@@ -75,5 +75,5 @@ article {
   border-bottom: .1px solid;
   padding-top: .05em;
   padding-bottom: .5em;
-  border-color: #222;
+  border-color: #999;
 }
