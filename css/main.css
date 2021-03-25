@@ -19,7 +19,6 @@ article header {
 }
 
 article h1 {
-  font-family: 'Crimson Text', serif;
   margin: auto;
   margin-bottom: 0;
   margin-top: 1.3rem;
@@ -31,14 +30,13 @@ article header p {
   font-size: 1rem;
   margin-top: 0;
   margin-bottom: 0;
-  border-bottom: 0.5px solid;
+  border-bottom: .5px solid;
   padding-top: .05em;
   padding-bottom: 1em;
   border-color: #555;
 }
 
 article p {
-  font-family: 'Crimson Text', serif;
   font-size: 1rem;
   font-style: normal;
   color: #222;
@@ -46,14 +44,18 @@ article p {
   padding-top: 0;
   padding-bottom: 0;
 }
+
 .quote {
   color: #999;
   font-size: 1.125rem;
-  border-top: 2px;
+}
+
+blockquote {
+  color: #999;
 }
 
 body {
-  margin: 0 0 2rem;
+  margin: 0;
 }
 
 article ol {
@@ -63,7 +65,7 @@ article ol {
 article {
   margin-top: 0;
   margin-bottom: 0;
-  border-bottom: 0.5px solid;
+  border-bottom: .5px solid;
   padding-top: .05em;
   padding-bottom: .5em;
   border-color: #555;
