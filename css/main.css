@@ -2,8 +2,9 @@ html {
   box-sizing: border-box;
   font-family: 'Crimson Text', serif;
   line-height: 1.3;
-  pading: 0 1rem;
-  font-size: 1em;
+  padding: 0 1rem 0 1rem;
+  font-size: 1.125rem;
+   color: #222;
 }
 
 *, *::before, *::after {
@@ -13,22 +14,27 @@ html {
 h1 {
   margin: auto;
   margin-bottom: 0;
-  padding: auto;
+  font-weight: normal;
 }
 
 h1 + p {
   font-style: italic;
-  margin-top: 0;
-  padding-top: 0.5;
-  border-bottom: 0.5;
+  margin-top: 0em;
+  margin-bottom: 0;
+  border-bottom: 1px solid;
+  padding-top: 0.05em;
+  padding-bottom: 1em;
+  border-color: #555;
 }
 blockquote {
   color: #999;
-  margin: 25 px;
+  margin: 1.5em;
+  font-size: 1.125rem;
+  border-box: 2px;
 }
 
 body {
-  margin: 0 1.3rem 0 1.3rem;
+  margin: 0 0 0 0;
 }
 
 ol li {
