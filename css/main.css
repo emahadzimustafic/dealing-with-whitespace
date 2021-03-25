@@ -32,17 +32,17 @@ article header p {
   margin-top: 0;
   margin-bottom: 0;
   border-bottom: .1px solid;
-  padding-top: .1em;
+  padding-top: 0;
   padding-bottom: 1.3em;
   border-color: #999;
 }
 
 article header + p {
-  padding-top: .5em;
+  padding-top: .2em;
 }
 
 article p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-style: normal;
   color: #222;
   line-height: 1.25;
