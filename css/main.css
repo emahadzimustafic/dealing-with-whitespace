@@ -14,6 +14,7 @@ html {
 h1 {
   margin: auto;
   margin-bottom: 0;
+  margin-top: 1.3rem;
   font-weight: normal;
 }
 
@@ -21,8 +22,8 @@ h1 + p {
   font-style: italic;
   margin-top: 0em;
   margin-bottom: 0;
-  border-bottom: 1px solid;
-  padding-top: 0.05em;
+  border-bottom: 0.5px solid;
+  padding-top: .05em;
   padding-bottom: 1em;
   border-color: #555;
 }
@@ -30,11 +31,12 @@ blockquote {
   color: #999;
   margin: 1.5em;
   font-size: 1.125rem;
-  border-box: 2px;
+  border-top: 2px;
 }
 
 body {
-  margin: 0 0 0 0;
+  margin: 0 0 2rem 0;
+
 }
 
 ol li {
@@ -44,8 +46,8 @@ ol li {
 article {
   margin-top: 0em;
   margin-bottom: 0;
-  border-bottom: 1px solid;
-  padding-top: 0.05em;
-  padding-bottom: 1em;
+  border-bottom: 0.5px solid;
+  padding-top: .05em;
+  padding-bottom: .5em;
   border-color: #555;
 }
